@@ -12,4 +12,4 @@ for i in range(n):
     elif (i+1) % y == 0:
         print("Buzz")
     else:
-        print(str(i+1))
+        print(i+1)
