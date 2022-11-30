@@ -1,5 +1,3 @@
 hifen_name = input().split('-')
-end_str = ""
-for i in hifen_name:
-    end_str += i[0]
+end_str = "".join(i[0] for i in hifen_name)
 print(end_str)
